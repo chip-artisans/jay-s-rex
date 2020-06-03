@@ -1,0 +1,30 @@
+{
+  "name": "jay-s-rex",
+  "version": "0.0.1",
+  "description": "A javascript documentation reference prompter for code-colaboration on discord",
+  "main": "rex.js",
+  "scripts": {
+    "dev": "eval $(cat .vault/.env) nodemon -x 'node --harmony' rex.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/chip-artisans/jay-s-rex.git"
+  },
+  "keywords": [
+    "javascript",
+    "js",
+    "documentation",
+    "discord",
+    "bot"
+  ],
+  "author": "Yoshihiro Ortiz",
+  "license": "MPL-2.0",
+  "bugs": {
+    "url": "https://github.com/chip-artisans/jay-s-rex/issues"
+  },
+  "homepage": "https://github.com/chip-artisans/jay-s-rex#readme",
+  "dependencies": {
+    "discord.js": "^12.2.0"
+  }
+}
